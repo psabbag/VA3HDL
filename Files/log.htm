@@ -1,0 +1,1512 @@
+﻿<html>
+<head>
+    <title>VA3HDL realtime log page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        #header {
+            border-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            border: 1px solid #73AD21;
+            vertical-align: middle;
+            text-align: center;
+            height: 30px;
+        }
+
+        #main {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            float: left;
+            padding: 10px;
+        }
+
+        #footer {
+            background-color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            color: black;
+            clear: both;
+            text-align: left;
+            padding: 5px;
+        }
+
+        table {
+            border: 1px outset #cccccc;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        tr.even {
+            display: table-row;
+            background-color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            color: black;
+            text-align: left;
+            padding: 5px;
+        }
+
+        tr.odd {
+            display: table-row;
+            background-color: lightgrey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            color: black;
+            text-align: left;
+            padding: 5px;
+        }
+
+        tr.footer {
+            background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            color: white;
+            clear: both;
+            text-align: left;
+            padding: 5px;
+        }
+
+        td {
+            padding: 5px;
+        }
+        
+        td.head {
+            padding: 5px;
+            font-weight: bold;
+        }
+        
+        td.callsign {
+            font-weight: bold;
+        }    
+    </style>
+</head>
+<body>
+    <div id="header" style="#rounded">VA3HDL realtime log</div>
+    <div id="main" style="#main">
+
+        <table class="log4omTable">
+  <tr class="odd">
+    <td class="head">QsoDate</td>
+    <td class="head">Callsign</td>
+    <td class="head">Band</td>
+    <td class="head">Mode</td>
+    <td class="head">Freq</td>
+    <td class="head">RstSent</td>
+    <td class="head">RstRcvd</td>
+    <td class="head">Name</td>
+    <td class="head">Country</td>
+    <td class="head">State</td>
+    <td class="head">Distance</td>
+    <td class="head">Gridsquare</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-17 1:29:05 AM</td>
+    <td class="Callsign">WA2MCR</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7150</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Joseph R Calabrese</td>
+    <td class="Country">United States</td>
+    <td class="State">NY</td>
+    <td class="Distance">598.2</td>
+    <td class="Gridsquare">FN31</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-17 1:20:08 AM</td>
+    <td class="Callsign">K5PI</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7148</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">George R Brandon</td>
+    <td class="Country">United States</td>
+    <td class="State">TX</td>
+    <td class="Distance">2152.07</td>
+    <td class="Gridsquare">EM10</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-17 1:06:12 AM</td>
+    <td class="Callsign">N4ZZ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7147</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Donald H Binkley</td>
+    <td class="Country">United States</td>
+    <td class="State">TN</td>
+    <td class="Distance">1051.85</td>
+    <td class="Gridsquare">EM66</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-17 1:03:40 AM</td>
+    <td class="Callsign">KI6VC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7140</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Victor J Sadesky</td>
+    <td class="Country">United States</td>
+    <td class="State">CA</td>
+    <td class="Distance">3311.56</td>
+    <td class="Gridsquare">DM15</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-17 1:01:22 AM</td>
+    <td class="Callsign">NW3Y</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7134.5</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Charles C Allen</td>
+    <td class="Country">United States</td>
+    <td class="State">DE</td>
+    <td class="Distance">716.39</td>
+    <td class="Gridsquare">FM28</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-17 12:59:08 AM</td>
+    <td class="Callsign">WR3R</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7130.7</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Gary A Clark</td>
+    <td class="Country">United States</td>
+    <td class="State">MD</td>
+    <td class="Distance">543.16</td>
+    <td class="Gridsquare">FM19</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-17 12:58:17 AM</td>
+    <td class="Callsign">NO6T</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7128</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Cortaro Contest Club</td>
+    <td class="Country">United States</td>
+    <td class="State">CA</td>
+    <td class="Distance">3482.12</td>
+    <td class="Gridsquare">DM12</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-17 12:55:58 AM</td>
+    <td class="Callsign">N1EK</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7224.2</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Edward H Kerns</td>
+    <td class="Country">United States</td>
+    <td class="State">MD</td>
+    <td class="Distance">543.16</td>
+    <td class="Gridsquare">FM19</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-17 12:52:04 AM</td>
+    <td class="Callsign">KV5J</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7233</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Keith L Ennis</td>
+    <td class="Country">United States</td>
+    <td class="State">LA</td>
+    <td class="Distance">1624.81</td>
+    <td class="Gridsquare">EM42</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-17 12:49:51 AM</td>
+    <td class="Callsign">W2JV</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7249.4</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Peter M Portanova</td>
+    <td class="Country">United States</td>
+    <td class="State">NY</td>
+    <td class="Distance">659.13</td>
+    <td class="Gridsquare">FN30</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-17 12:46:01 AM</td>
+    <td class="Callsign">K3KU</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7255.5</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Arthur N Boyars</td>
+    <td class="Country">United States</td>
+    <td class="State">MD</td>
+    <td class="Distance">543.16</td>
+    <td class="Gridsquare">FM19</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-17 12:39:24 AM</td>
+    <td class="Callsign">N2HMM</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7290</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">John E Santillo</td>
+    <td class="Country">United States</td>
+    <td class="State">NJ</td>
+    <td class="Distance">460.1</td>
+    <td class="Gridsquare">FN21</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-13 2:57:03 AM</td>
+    <td class="Callsign">KN5TX</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7214.1</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Sandra D Pannell</td>
+    <td class="Country">United States</td>
+    <td class="State">TX</td>
+    <td class="Distance">1988.51</td>
+    <td class="Gridsquare">EM12</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:28:00 PM</td>
+    <td class="Callsign">N8TU</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Stark Dx Association</td>
+    <td class="Country">United States</td>
+    <td class="State">OH</td>
+    <td class="Distance">408.96</td>
+    <td class="Gridsquare">EN90</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:28:00 PM</td>
+    <td class="Callsign">KC9OYE</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Charles E Hill</td>
+    <td class="Country">United States</td>
+    <td class="State">IN</td>
+    <td class="Distance">677.92</td>
+    <td class="Gridsquare">EN61</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:27:00 PM</td>
+    <td class="Callsign">N1IBQ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Ronald J Willson</td>
+    <td class="Country">United States</td>
+    <td class="State">CT</td>
+    <td class="Distance">598.2</td>
+    <td class="Gridsquare">FN31</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:27:00 PM</td>
+    <td class="Callsign">KB0FUL</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Roger F Spurgeon</td>
+    <td class="Country">United States</td>
+    <td class="State">MO</td>
+    <td class="Distance">1283.02</td>
+    <td class="Gridsquare">EM46</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:26:00 PM</td>
+    <td class="Callsign">KK0GT</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">James L Briggs</td>
+    <td class="Country">United States</td>
+    <td class="State">MO</td>
+    <td class="Distance">1138.91</td>
+    <td class="Gridsquare">EM48</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:25:00 PM</td>
+    <td class="Callsign">W2ASC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Anthony S Castiglia</td>
+    <td class="Country">United States</td>
+    <td class="State">NY</td>
+    <td class="Distance">659.13</td>
+    <td class="Gridsquare">FN30</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:24:00 PM</td>
+    <td class="Callsign">W2MSA</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Noel  Pagan</td>
+    <td class="Country">United States</td>
+    <td class="State">NJ</td>
+    <td class="Distance">534.93</td>
+    <td class="Gridsquare">FN20</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:23:00 PM</td>
+    <td class="Callsign">W3UC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Jamie R Ashton</td>
+    <td class="Country">United States</td>
+    <td class="State">MD</td>
+    <td class="Distance">716.39</td>
+    <td class="Gridsquare">FM28</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:22:00 PM</td>
+    <td class="Callsign">KM4ODS</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">George M Davenport</td>
+    <td class="Country">United States</td>
+    <td class="State">NC</td>
+    <td class="Distance">1058.3</td>
+    <td class="Gridsquare">FM04</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:21:00 PM</td>
+    <td class="Callsign">KA0LDG</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">44</td>
+    <td class="Name">Kent R Olson</td>
+    <td class="Country">United States</td>
+    <td class="State">ND</td>
+    <td class="Distance">1397.32</td>
+    <td class="Gridsquare">EN16</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:20:00 PM</td>
+    <td class="Callsign">KE0BVQ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Myres A Cowan</td>
+    <td class="Country">United States</td>
+    <td class="State">MO</td>
+    <td class="Distance">1162.82</td>
+    <td class="Gridsquare">EM56</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:19:00 PM</td>
+    <td class="Callsign">VE3SL</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Lloyd Addis</td>
+    <td class="Country">Canada</td>
+    <td class="State">ON</td>
+    <td class="Distance">46.7</td>
+    <td class="Gridsquare">FN03eo</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:18:00 PM</td>
+    <td class="Callsign">KB0DK</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Marlin F Van Slyke</td>
+    <td class="Country">United States</td>
+    <td class="State">NE</td>
+    <td class="Distance">1426.56</td>
+    <td class="Gridsquare">EN12</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:17:00 PM</td>
+    <td class="Callsign">KA9JCP</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Ronald R Crown</td>
+    <td class="Country">United States</td>
+    <td class="State">WI</td>
+    <td class="Distance">791.78</td>
+    <td class="Gridsquare">EN52</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:16:00 PM</td>
+    <td class="Callsign">KC2DPF</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Christopher J Mc Loughlin</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">645.23</td>
+    <td class="Gridsquare">FM18</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:15:00 PM</td>
+    <td class="Callsign">N9DRC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Delbert R Cline</td>
+    <td class="Country">United States</td>
+    <td class="State">WI</td>
+    <td class="Distance">770.32</td>
+    <td class="Gridsquare">EN53</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:14:00 PM</td>
+    <td class="Callsign">N1CCC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">51</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Daniel O Gonshorek</td>
+    <td class="Country">United States</td>
+    <td class="State">MO</td>
+    <td class="Distance">1431.79</td>
+    <td class="Gridsquare">EM28</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:13:00 PM</td>
+    <td class="Callsign">KX4PK</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Gene L Murphy</td>
+    <td class="Country">United States</td>
+    <td class="State">KY</td>
+    <td class="Distance">767.65</td>
+    <td class="Gridsquare">EM78</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:12:00 PM</td>
+    <td class="Callsign">W8DKC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">George E Majdak</td>
+    <td class="Country">United States</td>
+    <td class="State">MI</td>
+    <td class="Distance">479.45</td>
+    <td class="Gridsquare">EN72</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:11:00 PM</td>
+    <td class="Callsign">KC3OEP/M</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">James C Clark</td>
+    <td class="Country">United States</td>
+    <td class="State">DE</td>
+    <td class="Distance">716.39</td>
+    <td class="Gridsquare">FM28</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:10:00 PM</td>
+    <td class="Callsign">W4NLT</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Michael A Kubishen</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">645.23</td>
+    <td class="Gridsquare">FM18</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:09:00 PM</td>
+    <td class="Callsign">N1JTK</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Jack T Knox</td>
+    <td class="Country">United States</td>
+    <td class="State">CT</td>
+    <td class="Distance">598.2</td>
+    <td class="Gridsquare">FN31</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:08:00 PM</td>
+    <td class="Callsign">KG4UFV</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">57</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Joshua J Darkow</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">645.23</td>
+    <td class="Gridsquare">FM18</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:07:00 PM</td>
+    <td class="Callsign">W0LMU</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Jerry A Smith</td>
+    <td class="Country">United States</td>
+    <td class="State">IA</td>
+    <td class="Distance">1023.17</td>
+    <td class="Gridsquare">EN40</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:06:00 PM</td>
+    <td class="Callsign">KN4SEF</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Roy A King</td>
+    <td class="Country">United States</td>
+    <td class="State">SC</td>
+    <td class="Distance">1173.49</td>
+    <td class="Gridsquare">EM93</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:05:00 PM</td>
+    <td class="Callsign">W1ENB</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Eric N Balles</td>
+    <td class="Country">United States</td>
+    <td class="State">MA</td>
+    <td class="Distance">706.05</td>
+    <td class="Gridsquare">FN42</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:04:00 PM</td>
+    <td class="Callsign">WW4PM</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">John P Murph</td>
+    <td class="Country">United States</td>
+    <td class="State">NC</td>
+    <td class="Distance">952.01</td>
+    <td class="Gridsquare">EM95</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:03:00 PM</td>
+    <td class="Callsign">K9EPD</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">John J Matthews</td>
+    <td class="Country">United States</td>
+    <td class="State">IN</td>
+    <td class="Distance">965.24</td>
+    <td class="Gridsquare">EM67</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:02:00 PM</td>
+    <td class="Callsign">KC1NAJ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Zachary  Settle</td>
+    <td class="Country">United States</td>
+    <td class="State">NH</td>
+    <td class="Distance">706.05</td>
+    <td class="Gridsquare">FN42</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:02:00 PM</td>
+    <td class="Callsign">K9YQ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Walter K Karla</td>
+    <td class="Country">United States</td>
+    <td class="State">IL</td>
+    <td class="Distance">791.78</td>
+    <td class="Gridsquare">EN52</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:01:00 PM</td>
+    <td class="Callsign">KE8LGN</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Kenneth S Jones</td>
+    <td class="Country">United States</td>
+    <td class="State">WV</td>
+    <td class="Distance">504.69</td>
+    <td class="Gridsquare">FM09</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:01:00 PM</td>
+    <td class="Callsign">K2WPM</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">David O Wright</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">817.69</td>
+    <td class="Gridsquare">FM27</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 9:00:00 PM</td>
+    <td class="Callsign">N3CDF</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Wayne D Fussell</td>
+    <td class="Country">United States</td>
+    <td class="State">GA</td>
+    <td class="Distance">1100.55</td>
+    <td class="Gridsquare">EM84</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 9:00:00 PM</td>
+    <td class="Callsign">K3DBI</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Daniel W Mcdonnell</td>
+    <td class="Country">United States</td>
+    <td class="State">PA</td>
+    <td class="Distance">543.16</td>
+    <td class="Gridsquare">FM19</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:59:00 PM</td>
+    <td class="Callsign">KI4NSP</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Thomas A Corwin</td>
+    <td class="Country">United States</td>
+    <td class="State">NC</td>
+    <td class="Distance">966.02</td>
+    <td class="Gridsquare">FM15</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:58:00 PM</td>
+    <td class="Callsign">K3JRZ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Jeffrey R Zarge</td>
+    <td class="Country">United States</td>
+    <td class="State">DE</td>
+    <td class="Distance">624.89</td>
+    <td class="Gridsquare">FM29</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:57:00 PM</td>
+    <td class="Callsign">NE4TN</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Walter R Beaton</td>
+    <td class="Country">United States</td>
+    <td class="State">TN</td>
+    <td class="Distance">887.07</td>
+    <td class="Gridsquare">EM86</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:56:00 PM</td>
+    <td class="Callsign">AB4ER</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">58</td>
+    <td class="Name">Joseph I Field</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">645.23</td>
+    <td class="Gridsquare">FM18</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:55:00 PM</td>
+    <td class="Callsign">KB2TGU</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Chris J Vollero</td>
+    <td class="Country">United States</td>
+    <td class="State">NJ</td>
+    <td class="Distance">460.1</td>
+    <td class="Gridsquare">FN21</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:55:00 PM</td>
+    <td class="Callsign">K4CAE</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">David S Livingston</td>
+    <td class="Country">United States</td>
+    <td class="State">SC</td>
+    <td class="Distance">1065.86</td>
+    <td class="Gridsquare">EM94</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:54:00 PM</td>
+    <td class="Callsign">N3GDS</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Gregory D Smith</td>
+    <td class="Country">United States</td>
+    <td class="State">MD</td>
+    <td class="Distance">543.16</td>
+    <td class="Gridsquare">FM19</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:53:00 PM</td>
+    <td class="Callsign">K4RLT</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Richard L Trevillian</td>
+    <td class="Country">United States</td>
+    <td class="State">TN</td>
+    <td class="Distance">1055.08</td>
+    <td class="Gridsquare">EM75</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:52:00 PM</td>
+    <td class="Callsign">KZ9F</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Walter A Grosch</td>
+    <td class="Country">United States</td>
+    <td class="State">WI</td>
+    <td class="Distance">770.32</td>
+    <td class="Gridsquare">EN53</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:51:00 PM</td>
+    <td class="Callsign">N2YDC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">51</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Arnold  Ruiz</td>
+    <td class="Country">United States</td>
+    <td class="State">NY</td>
+    <td class="Distance">659.13</td>
+    <td class="Gridsquare">FN30</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:51:00 PM</td>
+    <td class="Callsign">KE9ND</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Kenneth J Dennis</td>
+    <td class="Country">United States</td>
+    <td class="State">IN</td>
+    <td class="Distance">677.92</td>
+    <td class="Gridsquare">EN61</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:50:00 PM</td>
+    <td class="Callsign">N1TIZ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Samuel J Giadone</td>
+    <td class="Country">United States</td>
+    <td class="State">MA</td>
+    <td class="Distance">706.05</td>
+    <td class="Gridsquare">FN42</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:50:00 PM</td>
+    <td class="Callsign">K2JWD</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Melvin  Markowitz</td>
+    <td class="Country">United States</td>
+    <td class="State">MA</td>
+    <td class="Distance">706.05</td>
+    <td class="Gridsquare">FN42</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:49:00 PM</td>
+    <td class="Callsign">KC3PFR</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Brian T Waite</td>
+    <td class="Country">United States</td>
+    <td class="State">MD</td>
+    <td class="Distance">543.16</td>
+    <td class="Gridsquare">FM19</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:49:00 PM</td>
+    <td class="Callsign">KC1NEK</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Nancy Austin</td>
+    <td class="Country">United States</td>
+    <td class="State">RI</td>
+    <td class="Distance">724.96</td>
+    <td class="Gridsquare">FN41il</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:48:00 PM</td>
+    <td class="Callsign">NT2A</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">57</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Gennady  Moshkov</td>
+    <td class="Country">United States</td>
+    <td class="State">NY</td>
+    <td class="Distance">534.93</td>
+    <td class="Gridsquare">FN20</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:48:00 PM</td>
+    <td class="Callsign">N4CWB</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">57</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Craig W Bryant</td>
+    <td class="Country">United States</td>
+    <td class="State">SC</td>
+    <td class="Distance">1105.56</td>
+    <td class="Gridsquare">EM84th</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:47:00 PM</td>
+    <td class="Callsign">KC3OTP</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Brian M Lowe</td>
+    <td class="Country">United States</td>
+    <td class="State">MD</td>
+    <td class="Distance">716.39</td>
+    <td class="Gridsquare">FM28</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:46:00 PM</td>
+    <td class="Callsign">KW2DX</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">John H Mayer</td>
+    <td class="Country">United States</td>
+    <td class="State">IA</td>
+    <td class="Distance">980.36</td>
+    <td class="Gridsquare">EN41</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:45:00 PM</td>
+    <td class="Callsign">KC9IL</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Warren J Pugh</td>
+    <td class="Country">United States</td>
+    <td class="State">IL</td>
+    <td class="Distance">634.11</td>
+    <td class="Gridsquare">EN62</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:44:00 PM</td>
+    <td class="Callsign">K9ICP</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Bruce J Tisdale</td>
+    <td class="Country">United States</td>
+    <td class="State">IN</td>
+    <td class="Distance">803.79</td>
+    <td class="Gridsquare">EM69</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:43:00 PM</td>
+    <td class="Callsign">KI0EB</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Kevin A Fontes</td>
+    <td class="Country">United States</td>
+    <td class="State">KY</td>
+    <td class="Distance">679.7</td>
+    <td class="Gridsquare">EM88</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:42:00 PM</td>
+    <td class="Callsign">K1KTF</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Steven I Adler</td>
+    <td class="Country">United States</td>
+    <td class="State">CT</td>
+    <td class="Distance">598.2</td>
+    <td class="Gridsquare">FN31</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:41:00 PM</td>
+    <td class="Callsign">AI4F</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Russell M Mattox</td>
+    <td class="Country">United States</td>
+    <td class="State">AL</td>
+    <td class="Distance">1240.65</td>
+    <td class="Gridsquare">EM64</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:40:00 PM</td>
+    <td class="Callsign">N3TU</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Gregory T Cowchok</td>
+    <td class="Country">United States</td>
+    <td class="State">DE</td>
+    <td class="Distance">624.89</td>
+    <td class="Gridsquare">FM29</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:39:00 PM</td>
+    <td class="Callsign">NO2C</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Louis J Maggio</td>
+    <td class="Country">United States</td>
+    <td class="State">NY</td>
+    <td class="Distance">659.13</td>
+    <td class="Gridsquare">FN30</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:38:00 PM</td>
+    <td class="Callsign">KO4EBY</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">55</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Ryan P Stinebiser</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">0</td>
+    <td class="Gridsquare"></td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:38:00 PM</td>
+    <td class="Callsign">K2HA</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Frederick J Schramm</td>
+    <td class="Country">United States</td>
+    <td class="State">PA</td>
+    <td class="Distance">624.89</td>
+    <td class="Gridsquare">FM29</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:37:00 PM</td>
+    <td class="Callsign">N1PGF</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">58</td>
+    <td class="Name">Edward / Archie P Young, Iii</td>
+    <td class="Country">United States</td>
+    <td class="State">NH</td>
+    <td class="Distance">0</td>
+    <td class="Gridsquare"></td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:37:00 PM</td>
+    <td class="Callsign">K4SHF</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Timothy M Tapio</td>
+    <td class="Country">United States</td>
+    <td class="State">NC</td>
+    <td class="Distance">1058.3</td>
+    <td class="Gridsquare">FM04</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:36:00 PM</td>
+    <td class="Callsign">WA9DAU</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Gary W Hansen</td>
+    <td class="Country">United States</td>
+    <td class="State">TN</td>
+    <td class="Distance">990.25</td>
+    <td class="Gridsquare">EM85</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:36:00 PM</td>
+    <td class="Callsign">N4ESU</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">57</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Glenn P Panazzolo</td>
+    <td class="Country">United States</td>
+    <td class="State">NY</td>
+    <td class="Distance">534.93</td>
+    <td class="Gridsquare">FN20</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:35:00 PM</td>
+    <td class="Callsign">W4OY</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Jeffrey L Mullins</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">844.82</td>
+    <td class="Gridsquare">EM96</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:34:00 PM</td>
+    <td class="Callsign">WN9P</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">49</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Michael A Orlandini</td>
+    <td class="Country">United States</td>
+    <td class="State">IL</td>
+    <td class="Distance">791.78</td>
+    <td class="Gridsquare">EN52</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:33:00 PM</td>
+    <td class="Callsign">WB9FXQ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Larry J Bahr</td>
+    <td class="Country">United States</td>
+    <td class="State">WI</td>
+    <td class="Distance">609.99</td>
+    <td class="Gridsquare">EN63</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:33:00 PM</td>
+    <td class="Callsign">KG4DJY</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">57</td>
+    <td class="RstRcvd">57</td>
+    <td class="Name">Kurt W Oest</td>
+    <td class="Country">United States</td>
+    <td class="State">VA</td>
+    <td class="Distance">755.2</td>
+    <td class="Gridsquare">FM17</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-09 8:31:00 PM</td>
+    <td class="Callsign">K8GQ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">55</td>
+    <td class="Name">Terry L Westfall</td>
+    <td class="Country">United States</td>
+    <td class="State">WV</td>
+    <td class="Distance">625.11</td>
+    <td class="Gridsquare">EM98</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-09 8:30:00 PM</td>
+    <td class="Callsign">KC1MGA</td>
+    <td class="Band">40m</td>
+    <td class="Mode">LSB</td>
+    <td class="Freq">7185</td>
+    <td class="RstSent">59</td>
+    <td class="RstRcvd">59</td>
+    <td class="Name">Charles J Chaponis</td>
+    <td class="Country">United States</td>
+    <td class="State">CT</td>
+    <td class="Distance">598.2</td>
+    <td class="Gridsquare">FN31</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:49:00 PM</td>
+    <td class="Callsign">W7RN</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7068.66</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">The Comstock Memorial Station</td>
+    <td class="Country">United States</td>
+    <td class="State">NV</td>
+    <td class="Distance">3286.32</td>
+    <td class="Gridsquare">DM09</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-03 11:46:00 PM</td>
+    <td class="Callsign">AC0C</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7064.665</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Jeffrey L Blaine</td>
+    <td class="Country">United States</td>
+    <td class="State">KS</td>
+    <td class="Distance">1431.79</td>
+    <td class="Gridsquare">EM28</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:44:00 PM</td>
+    <td class="Callsign">K5RZA</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7064.05</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Deborah S Bowen</td>
+    <td class="Country">United States</td>
+    <td class="State">TX</td>
+    <td class="Distance">2280.94</td>
+    <td class="Gridsquare">EM00</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-03 11:42:00 PM</td>
+    <td class="Callsign">KS0AA</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7062.775</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Anatoli A Antonets</td>
+    <td class="Country">United States</td>
+    <td class="State">KS</td>
+    <td class="Distance">1431.79</td>
+    <td class="Gridsquare">EM28</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:41:00 PM</td>
+    <td class="Callsign">W5AP</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7062.285</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">James T Sharp</td>
+    <td class="Country">United States</td>
+    <td class="State">TX</td>
+    <td class="Distance">1988.51</td>
+    <td class="Gridsquare">EM12</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-03 11:40:00 PM</td>
+    <td class="Callsign">VE7IO</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7061.1</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Frederick Bernard Orsetti</td>
+    <td class="Country">Canada</td>
+    <td class="State">BC</td>
+    <td class="Distance">3314.34</td>
+    <td class="Gridsquare">CN89OB</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:38:00 PM</td>
+    <td class="Callsign">K8YE</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7060.64</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Dennis D Faist</td>
+    <td class="Country">United States</td>
+    <td class="State">MI</td>
+    <td class="Distance">479.45</td>
+    <td class="Gridsquare">EN72</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-03 11:37:00 PM</td>
+    <td class="Callsign">K9WX</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7058.625</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Timothy  Gennett</td>
+    <td class="Country">United States</td>
+    <td class="State">IN</td>
+    <td class="Distance">733.3</td>
+    <td class="Gridsquare">EN60</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:36:00 PM</td>
+    <td class="Callsign">N6IE</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7057.31</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Ronald E Castro</td>
+    <td class="Country">United States</td>
+    <td class="State">CA</td>
+    <td class="Distance">3647.8</td>
+    <td class="Gridsquare">CM88</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-03 11:35:00 PM</td>
+    <td class="Callsign">AB0RX</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7056.485</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">George A Mackus</td>
+    <td class="Country">United States</td>
+    <td class="State">MO</td>
+    <td class="Distance">1138.91</td>
+    <td class="Gridsquare">EM48</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:33:00 PM</td>
+    <td class="Callsign">VE3NE</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7055.32</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Lajos Laki</td>
+    <td class="Country">Canada</td>
+    <td class="State">ON</td>
+    <td class="Distance">31.36</td>
+    <td class="Gridsquare">FN03DS</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-03 11:30:00 PM</td>
+    <td class="Callsign">N5ZM</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7053.375</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Earl F Smith</td>
+    <td class="Country">United States</td>
+    <td class="State">AR</td>
+    <td class="Distance">1569.11</td>
+    <td class="Gridsquare">EM34</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:27:00 PM</td>
+    <td class="Callsign">N5HC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7051.855</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Conny O Jonsson</td>
+    <td class="Country">United States</td>
+    <td class="State">NM</td>
+    <td class="Distance">2522.34</td>
+    <td class="Gridsquare">DM65</td>
+  </tr>
+  <tr class="even">
+    <td class="QsoDate">2021-01-03 11:26:00 PM</td>
+    <td class="Callsign">N4ZZ</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7051.395</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">Donald H Binkley</td>
+    <td class="Country">United States</td>
+    <td class="State">TN</td>
+    <td class="Distance">1051.85</td>
+    <td class="Gridsquare">EM66</td>
+  </tr>
+  <tr class="odd">
+    <td class="QsoDate">2021-01-03 11:24:00 PM</td>
+    <td class="Callsign">W0DC</td>
+    <td class="Band">40m</td>
+    <td class="Mode">RTTY</td>
+    <td class="Freq">7047.025</td>
+    <td class="RstSent">599</td>
+    <td class="RstRcvd">599</td>
+    <td class="Name">John W Lockhart</td>
+    <td class="Country">United States</td>
+    <td class="State">MN</td>
+    <td class="Distance">1079.21</td>
+    <td class="Gridsquare">EN35</td>
+  </tr>
+  <tr class="footer">
+    <td colspan="15">Generated by Log4OM2 2.11.0.0 [2021-01-17 2:10:01 AM UTC]</td>
+  </tr>
+</table>
+
+
+    </div>
+</body>
+
+</html>
