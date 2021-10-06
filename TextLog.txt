@@ -1,0 +1,10 @@
+# Header 
+mycall VA3HDL
+# mygrid FN04ga
+operator
+# Park number below 
+# mywwff wwff-5314
+# Log 
+date 2021-10-06
+20m 14.235 ssb
+1845 K7UGA
