@@ -7,4 +7,5 @@ operator
 # Log 
 date 2021-10-06
 20m ssb
-14.310 K5TS 57 wwff-4486
+2309 14.305 KE8OXZ 53 59 wwff-4449
+
