@@ -6,5 +6,9 @@ operator
 # mywwff wwff-5314
 # Log 
 date 2021-10-06
-20m 14.235 ssb
-1845 K7UGA
+20m ssb
+14.310 K5TS wwff-4486
+
+
+
+
