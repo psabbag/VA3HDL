@@ -8,4 +8,5 @@ operator
 date 2021-10-06
 20m ssb
 2309 14.305 KE8OXZ 53 59 wwff-4449
-
+date 2021-10-07
+0014 14.278 W5FYR 51 wwff-1101
