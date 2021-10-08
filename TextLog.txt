@@ -1,4 +1,5 @@
 # Header 
+mywwff 
 mycall VA3HDL
 # mygrid FN04ga
 operator
@@ -7,8 +8,5 @@ operator
 # Log 
 date 2021-10-06
 20m ssb
-2309 14.305 KE8OXZ 53 59 wwff-4449
-date 2021-10-07
-0014 14.278 W5FYR 51 wwff-1101
-0022 14.283 K5SJC 51 wwff-4404
-0026 14.324 N5EST 51 wwff-6565
+2309 14.305 LU2HOT 53 59 wwff-4449
+
